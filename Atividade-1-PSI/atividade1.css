@@ -1,0 +1,78 @@
+.pai {
+    position: absolute;
+    background-color: rgb(182, 182, 182);
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filha-1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
+    right: 20px;
+    top: 20px;
+}
+
+.filha-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 160, 255);
+    border-radius: 20px;
+    right: 20px;
+    top: 20px;
+    margin: 10px;
+}
+
+.filha-3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(17, 84, 230, 0.644);
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filha-4, .filha-5, .filha-6, .filha-7, .filha-8, .filha-9, .filha-10, .filha-11, .filha-12, .filha-13, .filha-14 {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(223, 226, 24, 0.377);
+    border-radius: 20px;
+    top: 30px;
+ }
+
+.pai-2 {
+    position: absolute;
+    top: 110px;
+ }
+
+.filha-15 {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(17, 230, 148, 0.644);
+    border-radius: 20px;
+ }
+
+ .pai-3 {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+ }
+
+ .filha-16 {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(230, 105, 255, 0.74);
+    border-radius: 20px;
+ }
