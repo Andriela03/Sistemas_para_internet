@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .flex {
     display: flex;
 }
 
 .container{ 
-    width: 1200px;
+    width: 1400px;
 }
 
 body {
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat";
+    font-family: "Nunito";
     flex-direction: column;
     margin: 0;
 }
@@ -35,7 +35,7 @@ header div nav {
     list-style: none;
     color: #fff;
     gap: 12px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
 
 }
@@ -51,27 +51,34 @@ header section .buttons {
 header section div .button-login a {
     text-decoration: none;
     color: #575757;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     padding: 6px 10px;
     background-color: #FFE562;
     border-radius: 10px;
 }
 
-header section div .button-cad a {
-    text-decoration: none;
-    color: #575757;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 6px 10px;
-    background-color: #F7E5FF;
-    border-radius: 10px;
+header section div .button-login a:hover {
+    background-color: #ffd900;
 }
 
 
+header section div .button-cad a {
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+header section div .button-cad a:hover {
+    background-color: #F7E5FF;
+}
+
 header nav li:hover {
-   border-bottom: 3px solid #FFE562;
-   padding-bottom: 5px;
+   color: #FFE562;
    cursor: pointer;
 }
 
@@ -81,5 +88,4 @@ figure {
 
 figure img {
     width: 1890px;
-
 }
