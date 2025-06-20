@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.container{ 
+    width: 1400px;
+}
+
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+figure {
+    margin: 0;
+}
+
+.gap {
+    gap: 30px;
+}
+.gap-2 {
+    gap: 15px;
+}
+
+.end {
+    align-items: end;
+}
+
+.extremidades {
+    justify-content: space-around;
+}

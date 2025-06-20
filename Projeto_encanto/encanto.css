@@ -1,17 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-.flex {
-    display: flex;
-}
-
-.container{ 
-    width: 1400px;
-}
 
 body {
     justify-content: center;
     align-items: center;
-    font-family: "Nunito";
     flex-direction: column;
     margin: 0;
 }
@@ -82,10 +72,20 @@ header nav li:hover {
    cursor: pointer;
 }
 
-figure {
-    margin: 0;
+main .foto figure img {
+    width: 1890px;
 }
 
-figure img {
-    width: 1890px;
+main {
+    flex-direction: column;
+}
+
+main .foto figure {
+    position: absolute;
+    display: flex;
+
+}
+
+main .foto .descricao {
+    position: relative;
 }

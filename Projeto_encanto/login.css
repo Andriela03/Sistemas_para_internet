@@ -1,0 +1,194 @@
+body {
+    background-image: url(img/keila-hotzel-2VyyvZns3qQ-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body .descricao {
+    color: #FFF;
+    font-family: "Borel", cursive;
+    font-size: 22px;
+    width: 600px;
+}
+
+body .tela-login {
+    background-color: #FFF;
+    flex-direction: column;
+    padding: 48px 60px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
+    gap: 15px;
+
+}
+
+body .tela-login h2{
+    color: #9371A6;
+    font-family: "Nunito";
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+body .tela-login span {
+    color: #3D3D3D;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+body .tela-login .dados .email label {
+    color: #3D3D3D;
+    font-family: Nunito;
+}
+
+body .tela-login .dados .email input {
+    border-radius: 5px;
+    border: 1px solid #868488;
+    padding: 6px 10px;
+    width: 272px;
+    height: 30px; 
+    font-size: 14px;  
+    color: #868488;
+}
+
+body .tela-login .dados label {
+    color: #3D3D3D;
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+body .tela-login .dados .senha input {
+    border-radius: 5px;
+    border: 1px solid #868488;
+    padding: 6px 10px;
+    width: 272px;
+    height: 30px;
+    color: #868488;
+    font-size: 14px;
+
+}
+
+body .tela-login .dados a {
+    color: #501B6E;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body .tela-login .dados input:focus {
+    outline: none; 
+    border: 2px solid #B585E5;
+    box-shadow: 0 0 5px #B585E5;
+}
+
+body .tela-login .dados button {
+    border-radius: 15px;
+    background: #B585E5;    
+    display: flex;
+    width: 292px;
+    height: 40px;
+    padding: 5px 84px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+body .tela-login .dados button a {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Nunito;
+    text-decoration: none;
+}
+body .tela-login .dados button:hover {
+    background-color: #945fb3;
+}
+
+
+body .tela-login .dados section h3 {
+    color: #383834;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 30px 0 0 10px;
+}
+
+body .tela-login .dados section .navegation li {
+    border: #dbdbdb 1px solid;
+    border-radius: 30px;
+    padding: 15px;
+    width: 10px;
+    height: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    body {
+        flex-direction: column;
+    }
+
+    body div h1 {
+        display:none;
+    }
+}
+
+@media (max-width: 768px) {
+    body .descricao {
+        font-size: 1.2rem;
+    }
+
+    body .tela-login {
+        width: 90%;
+        padding: 15px;
+    }
+
+    body .tela-login h2 {
+        font-size: 1.6rem;
+    }
+
+    body .tela-login span {
+        font-size: 0.9rem;
+    }
+
+    body .tela-login .dados button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    body .descricao {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    body .tela-login {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    body .tela-login h2 {
+        font-size: 1.4rem;
+    }
+
+    body .tela-login span {
+        font-size: 0.85rem;
+    }
+
+    body .tela-login .dados input,
+    body .tela-login .dados button {
+        max-width: 100%;
+    }
+}
