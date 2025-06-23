@@ -56,6 +56,7 @@ body .tela-login .dados .email input {
     height: 30px; 
     font-size: 14px;  
     color: #868488;
+    font-family: "Nunito";
 }
 
 body .tela-login .dados label {
@@ -72,15 +73,18 @@ body .tela-login .dados .senha input {
     height: 30px;
     color: #868488;
     font-size: 14px;
+    font-family: "Nunito";
 
 }
 
 body .tela-login .dados a {
     color: #501B6E;
-    font-family: Nunito;
+    font-family: "Nunito";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    margin-top: 6px;
+    
 }
 
 body .tela-login .dados input:focus {
@@ -94,13 +98,15 @@ body .tela-login .dados button {
     background: #B585E5;    
     display: flex;
     width: 292px;
-    height: 40px;
-    padding: 5px 84px;
+    height: 46px;
     justify-content: center;
     align-items: center;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+
 }
+
 body .tela-login .dados button a {
     color: #FFF;
     font-weight: 600;
@@ -130,6 +136,7 @@ body .tela-login .dados section .navegation li {
     list-style: none;
     cursor: pointer;
 }
+
 
 @media (max-width: 1050px) {
     body {

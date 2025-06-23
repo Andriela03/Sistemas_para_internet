@@ -40,3 +40,7 @@ figure {
 .extremidades {
     justify-content: space-around;
 }
+
+.direita {
+    align-self: end;
+}
