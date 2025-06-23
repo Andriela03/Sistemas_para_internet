@@ -4,52 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Encanto</title>
+
     <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="img/Logo-_1_.ico" type="image/x-icon">
     <link rel="stylesheet" href="global.css">
 </head>
 
-<body class="flex">
-    <header class="flex">
-        <section class="container flex">
+<body class="centralizar">
+    <header>
+        <section class="flex extremidades centralizar">
             <div class="logo">
                 <img src="img/Logo.png" alt="Logo">
             </div>
-            <div class="nav flex">
-                <nav class="flex">
-                    <li>Home</li>
-                    <li>Doceria</li>
-                    <li>Menu</li>
-                    <li>Contato</li>
-                </nav>
-                <div class="buttons flex">
-                    <div class="button-login">
-                        <a href="#">Login</a>
-                    </div>
-                    <div class="button-cad">
-                        <a href="#">Cadastre-se</a>
-                    </div>
-                </div>
+            <nav class="flex">
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUTOS</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTATO</a></li>
+            </nav>
+
+            <div class="buttons flex">
+                <a href="login.html" class="login">Login</a>
+                <a href="#" class="cad">Cadastre-se</a>
             </div>
         </section>
     </header>
 
-    <main class="container flex">
-        <section class="foto">
-            <figure>
-                <img src="img/Vector 1.png" alt="">
-            </figure>
-            <div class="descricao">
-                <h1>Bem-vindo à Encanto!</h1>
-                <h2>onde cada doce é feito com amor e um toque de magia!</h2>
-                <div class="saiba-mais">
-                    <a href="#">Saiba Mais</a>
+    <main class="flex centralizar container coluna">
+        <section class="hero flex centralizar">
+            <div class="title flex coluna">
+                <div>
+                    <h1>Bem-vindo à Encanto!</h1>
+                    <p>Encanto em cada detalhe, doçura em cada mordida. Descubra sabores que aquecem o coração.</p>
                 </div>
+                <small>Bolos personalizados com amor e chantilly fresco! 💜</small>
+                <a href="#" class="flex centralizar">Ver cardápio</a>
+            </div>
+            <figure>
+                <img src="img/bolo.png" alt="Bolo decorado">
+            </figure>
+        </section>
+        <section>
+            <div class="sidebar">
+                
             </div>
         </section>
     </main>
-
-    <footer></footer>
 </body>
 
 </html>

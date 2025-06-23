@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden;
+  font-family: "Nunito";
+  background-color: #FFF0F5;
+}
+
+header {
+    width: 100%;
+    background-color: #D1A8FA;
+    padding: 10px;
+}
+
+header nav {
+    gap: 30px;
+}
+header nav li {
+    list-style: none;
+}
+header nav li a {
+    color: #fff;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none; 
+    transition: color 0.3s;  
+}
+
+header nav li a:hover {
+    color: #ffd500;
+}
+
+header .buttons {
+    gap: 20px;
+}
+
+header .buttons a {
+    padding: 6px 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #6A498C;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header .buttons .login {
+    background-color: #fff;
+}
+
+header .buttons .cad {
+    background-color: #FFE562;
+    color: #4D4C4C;
+}
+
+header .buttons .login:hover {
+    background-color: #f7eafc;
+}
+
+header .buttons .cad:hover {
+    background-color: #FFD500	 ;
+}
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+main .hero {
+    margin: 100px 0 0 0;
+}
+
+main .hero .title {
+    gap: 20px;
+}
+
+main .hero .title h1 {
+    color: #383838;
+    font-family: Borel;
+    font-size: 36px;
+    font-weight: 400;
+}
+main .hero .title p {
+    color: #383838;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 415px;
+}
+
+main .hero .title small {
+    color: #383838;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+main .hero .title a {
+    padding: 10px 12px;
+    background-color: #ffd500;
+    border-radius: 15px;
+    width: 169px;
+    text-decoration: none;
+     background-color: #B97ED9;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(185, 126, 217, 0.4); /* sombra lilás */
+    transition: all 0.3s ease;
+}
+
+main .hero .title a:hover {
+    background-color: #a155b9;
+    box-shadow: 0 8px 25px rgba(161, 85, 185, 0.5);
+    transform: translateY(-2px);
+}
+
