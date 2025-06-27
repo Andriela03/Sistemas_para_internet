@@ -32,6 +32,9 @@ figure {
 .gap-2 {
     gap: 15px;
 }
+.gap-3 {
+    gap: 10px;
+}
 
 .end {
     align-items: end;
@@ -43,4 +46,12 @@ figure {
 
 .direita {
     align-self: end;
+}
+
+.extremidades-2 {
+    justify-content: space-between;
+}
+
+.center {
+    align-self: center;
 }

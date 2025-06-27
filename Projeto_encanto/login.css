@@ -1,7 +1,7 @@
 body {
     background-image: url(img/keila-hotzel-2VyyvZns3qQ-unsplash\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
     align-items: center;
     height: 100%;
     min-height: 100vh;
@@ -26,7 +26,7 @@ body .tela-login {
 
 }
 
-body .tela-login h2{
+body .tela-login h2 {
     color: #9371A6;
     font-family: "Nunito";
     font-size: 32px;
@@ -53,8 +53,8 @@ body .tela-login .dados .email input {
     border: 1px solid #868488;
     padding: 6px 10px;
     width: 272px;
-    height: 30px; 
-    font-size: 14px;  
+    height: 30px;
+    font-size: 14px;
     color: #868488;
     font-family: "Nunito";
 }
@@ -88,14 +88,14 @@ body .tela-login .dados a {
 }
 
 body .tela-login .dados input:focus {
-    outline: none; 
+    outline: none;
     border: 2px solid #B585E5;
     box-shadow: 0 0 5px #B585E5;
 }
 
-body .tela-login .dados button {
+body .tela-login .dados .botao-entrar {
     border-radius: 15px;
-    background: #B585E5;    
+    background: #B585E5;
     display: flex;
     width: 292px;
     height: 46px;
@@ -104,16 +104,13 @@ body .tela-login .dados button {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
-
-}
-
-body .tela-login .dados button a {
     color: #FFF;
     font-weight: 600;
     font-size: 20px;
     font-family: Nunito;
-    text-decoration: none;
+    
 }
+
 body .tela-login .dados button:hover {
     background-color: #945fb3;
 }
@@ -137,6 +134,49 @@ body .tela-login .dados section .navegation li {
     cursor: pointer;
 }
 
+.modal-sucesso {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.modal-sucesso .mensagem-box {
+    background: white;
+    padding: 32PX;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.fechar a {
+    margin-top: 16px;
+    background-color: #B97ED9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.modal-sucesso .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#sucesso-login:checked~.modal-sucesso {
+    display: flex;
+}
+
 
 @media (max-width: 1050px) {
     body {
@@ -144,13 +184,13 @@ body .tela-login .dados section .navegation li {
     }
 
     body div h1 {
-        display:none;
+        display: none;
     }
 }
 
 @media (max-width: 768px) {
     body .descricao {
-        font-size: 1.2rem;
+        font-size: 20PX;
     }
 
     body .tela-login {

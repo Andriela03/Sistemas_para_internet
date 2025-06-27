@@ -1,0 +1,172 @@
+body {
+  background-image: url(img/keila-hotzel-2VyyvZns3qQ-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.tela-login {
+  background-color: #FFF;
+  flex-direction: column;
+  padding: 48px 90px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
+  gap: 15px;
+
+}
+
+.tela-login h2 {
+  color: #9371A6;
+  font-family: "Nunito";
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tela-login span {
+  color: #3D3D3D;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.tela-login .dados label {
+  color: #3D3D3D;
+  font-family: Nunito;
+  font-size: 18px;
+}
+
+.tela-login .dados input {
+  border-radius: 5px;
+  border: 1px solid #868488;
+  padding: 6px 10px;
+  width: 272px;
+  height: 30px;
+  font-size: 14px;
+  color: #868488;
+  font-family: "Nunito";
+}
+
+.tela-login .dados input:focus {
+  outline: none;
+  border: 2px solid #B585E5;
+  box-shadow: 0 0 5px #B585E5;
+}
+
+.tela-login .dados .botao-entrar {
+  border-radius: 15px;
+  background: #B585E5;
+  display: flex;
+  width: 292px;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #FFF;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Nunito;
+}
+
+.tela-login .dados .botao-entrar:hover {
+  background-color: #945fb3;
+}
+
+.tela-login .dados section h3 {
+  color: #383834;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 30px 0 0 10px;
+}
+
+.navegation li {
+  border: #dbdbdb 1px solid;
+  border-radius: 30px;
+  padding: 15px;
+  width: 10px;
+  height: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.modal-sucesso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-sucesso .mensagem-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.fechar a {
+  margin-top: 16px;
+  background-color: #B97ED9;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-sucesso .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#sucesso-cadastro:checked ~ .modal-sucesso {
+  display: flex;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+
+  .tela-login {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .tela-login h2 {
+    font-size: 1.6rem;
+  }
+
+  .tela-login span {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tela-login {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .tela-login .dados input,
+  .tela-login .dados .botao-entrar {
+    width: 100%;
+  }
+}

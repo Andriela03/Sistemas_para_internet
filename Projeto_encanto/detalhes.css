@@ -1,0 +1,190 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fff0f5, #fceeff);
+    color: #4D4C4C;
+}
+
+.container-produto {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: "Nunito";
+    background-color: #FFF0F5;
+}
+
+header {
+    width: 100%;
+    background-color: #D1A8FA;
+    padding: 10px;
+}
+
+header nav {
+    gap: 30px;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a {
+    color: #fff;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav li a:hover {
+    color: #ffd500;
+}
+
+header .buttons {
+    gap: 20px;
+}
+
+.produto-detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(185, 126, 217, 0.2);
+    padding: 30px;
+}
+
+.produto-detalhes img {
+    max-width: 420px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(106, 73, 140, 0.15);
+}
+
+
+.info-produto h1 {
+    font-family: "Borel", cursive;
+    font-size: 36px;
+    color: #6A498C;
+    margin-bottom: 20px;
+}
+
+.info-produto .descricao {
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: #555;
+}
+
+.info-produto .preco {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    color: #B97ED9;
+    margin-bottom: 28px;
+    background-color: #f7e6ff;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.btn-comprar {
+    background-color: #B97ED9;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(106, 73, 140, 0.2);
+}
+
+.btn-comprar:hover {
+    background-color: #6A498C;
+}
+
+.tabela-nutricional {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 12px 30px rgba(185, 126, 217, 0.1);
+}
+
+.tabela-nutricional h2 {
+    font-size: 30px;
+    color: #6A498C;
+    font-family: "Borel", cursive;
+    margin-bottom: 24px;
+}
+
+.tabela-nutricional table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.tabela-nutricional th,
+.tabela-nutricional td {
+    padding: 16px 20px;
+    text-align: left;
+}
+
+.tabela-nutricional th {
+    background-color: #F7E6FF;
+    color: #6A498C;
+    font-weight: 700;
+}
+
+.tabela-nutricional tr:nth-child(even) {
+    background-color: #f9f2fc;
+}
+
+.tabela-nutricional tr:hover {
+    background-color: #f2e4ff;
+    transition: background 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .produto-detalhes {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-produto h1 {
+        font-size: 28px;
+    }
+
+    .info-produto .descricao,
+    .info-produto .preco {
+        font-size: 16px;
+    }
+
+    .btn-comprar {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .tabela-nutricional {
+        padding: 30px 20px;
+    }
+
+    .tabela-nutricional h2 {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,139 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fff0f5, #fceeff);
+    color: #4D4C4C;
+}
+
+.container-produto {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: "Nunito";
+    background-color: #FFF0F5;
+}
+
+header {
+    width: 100%;
+    background-color: #D1A8FA;
+    padding: 10px;
+}
+
+header nav {
+    gap: 30px;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a {
+    color: #fff;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav li a:hover {
+    color: #ffd500;
+}
+
+header .buttons {
+    gap: 20px;
+}
+
+.container-contato {
+  max-width: 800px;
+  margin: 80px auto 40px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(185, 126, 217, 0.2);
+}
+
+.container-contato h2 {
+  font-family: 'Borel', cursive;
+  color: #6A498C;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.container-contato p {
+  font-size: 16px;
+  color: #4D4C4C;
+  margin-bottom: 30px;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-contato label {
+  font-weight: 600;
+  color: #6A498C;
+}
+
+.form-contato input,
+.form-contato textarea {
+  padding: 12px;
+  border: 2px solid #B97ED9;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+  border-color: #6A498C;
+  box-shadow: 0 0 6px #B97ED9;
+}
+
+.form-contato button {
+  background-color: #B97ED9;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-contato button:hover {
+  background-color: #945fb3;
+}
+
+.info-contato {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #E4C2FF;
+}
+
+.info-contato h3 {
+  color: #6A498C;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-contato p {
+  color: #4D4C4C;
+  font-size: 16px;
+  margin: 6px 0;
+}

@@ -42,33 +42,6 @@ header .buttons {
     gap: 20px;
 }
 
-header .buttons a,
-.login {
-    padding: 6px 8px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #6A498C;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-header .buttons .login {
-    background-color: #fff;
-}
-
-header .buttons .cad {
-    background-color: #FFE562;
-    color: #4D4C4C;
-}
-
-header .buttons .login:hover {
-    background-color: #f7eafc;
-}
-
-header .buttons .cad:hover {
-    background-color: #FFD500;
-}
-
 main {
     max-width: 1400px;
     margin: 0 auto;
