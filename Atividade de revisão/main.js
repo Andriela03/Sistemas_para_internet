@@ -23,4 +23,3 @@ console.log(`Valor do produto: ${produto}`)
 console.log(`Valor com desconto ${precoProdutoDescontado}`)
 
 
-//Questão 4
