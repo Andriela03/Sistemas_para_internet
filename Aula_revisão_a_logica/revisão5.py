@@ -40,10 +40,10 @@
 
 # 03 - O custo de um carro novo ao consumidor é a soma do de fábrica com a porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que o percentual do distribuidor seja 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor.
 
-def calcular_custo(custo_fabrica):
-    imposto_distribuidor = custo_fabrica * (28/100)
-    imposto_geral = custo_fabrica * (45/100)
-    custo_total = custo_fabrica + imposto_distribuidor + imposto_geral
-    return custo_total
+# def calcular_custo(custo_fabrica):
+#     imposto_distribuidor = custo_fabrica * (28/100)
+#     imposto_geral = custo_fabrica * (45/100)
+#     custo_total = custo_fabrica + imposto_distribuidor + imposto_geral
+#     return custo_total
 
-print(calcular_custo(1000))
+# print(calcular_custo(1000))
